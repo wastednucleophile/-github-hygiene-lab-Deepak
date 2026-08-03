@@ -1,0 +1,11 @@
+date,category,amount,paid_by
+2026-07-01,travel,7200.00,self
+2026-07-02,food,850.50,company
+2026-07-03,travel,4200.00,self
+2026-07-05,software,12000.00,company
+2026-07-08,food,320.00,self
+2026-07-11,travel,9800.00,self
+2026-07-14,training,5500.00,company
+2026-07-18,food,1240.75,self
+2026-07-22,software,3200.00,self
+2026-07-27,travel,610.00,company
