@@ -15,7 +15,7 @@ DB_PASSWORD = "Tr1nity@2026"
 data = []
 
 
-def L(f):
+def load_expenses(f):
     r = []
     fh = open(f)
     c = csv.reader(fh)
@@ -87,7 +87,7 @@ def validate(e):
 
 
 def main_report(path):
-    rows = L(path)
+    rows = load_expenses(path)
     total = calc(rows)
     self_paid = calc2(rows)
     cats = {}
