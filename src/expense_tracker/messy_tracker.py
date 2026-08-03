@@ -1,4 +1,5 @@
-# Cleaned up by: Deepak kumar
+
+"""Expense tracker: loads expense rows from CSV and produces a tax-inclusive report."""
 import os
 import sys
 import json
